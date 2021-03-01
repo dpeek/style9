@@ -1,4 +1,4 @@
-const { evaluateNodePath } = require('../utils/ast');
+const evaluateNodePath = require('../helpers/eval-node-path');
 const { mapObjectValues } = require('../utils/helpers');
 const {
   expandProperty,

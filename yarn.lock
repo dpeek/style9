@@ -1007,6 +1007,11 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
 
+babel-flow-types@^1.2.1:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/babel-flow-types/-/babel-flow-types-1.2.3.tgz#e9c94ac1063a8857f8b2a67c2e17eb6cccd519e3"
+  integrity sha1-6clKwQY6iFf4sqZ8LhfrbMzVGeM=
+
 babel-jest@^26.1.0, babel-jest@^26.6.3:
   version "26.6.3"
   resolved "https://registry.yarnpkg.com/babel-jest/-/babel-jest-26.6.3.tgz#d87d25cb0037577a0c89f82e5755c5d293c01056"
@@ -1084,6 +1089,13 @@ babel-preset-jest@^26.6.2:
   dependencies:
     babel-plugin-jest-hoist "^26.6.2"
     babel-preset-current-node-syntax "^1.0.0"
+
+babel-type-scopes@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/babel-type-scopes/-/babel-type-scopes-1.1.0.tgz#040228035d5c3205036f38aa4c594fb831c2366a"
+  integrity sha512-8VMsHzoLTrmaSh+48STqsHCdJlkj1UeC6MqYoc2pZm6nzRXQXQUEdow/ZUrlD1xOCYbjyAcpkkqb/ktuuKJ/jQ==
+  dependencies:
+    babel-flow-types "^1.2.1"
 
 balanced-match@^1.0.0:
   version "1.0.0"
