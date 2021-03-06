@@ -1,0 +1,16 @@
+{
+  "name": "parcel-transformer-style9",
+  "version": "0.1.0",
+  "dependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/generator": "^7.13.9",
+    "@parcel/babel-ast-utils": "^2.0.0-nightly.2242",
+    "@parcel/core": "^2.0.0-nightly.618",
+    "@parcel/plugin": "^2.0.0-nightly.620",
+    "@parcel/utils": "^2.0.0-nightly.620",
+    "style9": "^0.8.1"
+  },
+  "engines": {
+    "parcel": "^2.0.0 || ^2.0.0-beta.1 || ^2.0.0-nightly.618"
+  }
+}

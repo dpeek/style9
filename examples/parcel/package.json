@@ -1,0 +1,16 @@
+{
+  "name": "style9-parcel-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "parcel serve ./src/index.js",
+    "build": "parcel build ./src/index.js"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.618",
+    "parcel-transformer-style9": "link:../../parcel"
+  },
+  "dependencies": {
+    "style9": "link:../.."
+  }
+}
